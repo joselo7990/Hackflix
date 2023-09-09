@@ -9,12 +9,6 @@ const Header = function () {
             Hackflix
           </a>
         </div>
-
-        <div class="container-fluid d-flex flex-row-reverse">
-          <a class="navbar-brand" href="#">
-            Home
-          </a>
-        </div>
       </nav>
       <header style={{ paddingLeft: 0 }}>
         <div
@@ -28,15 +22,15 @@ const Header = function () {
           <div>
             <div className="d-flex justify-content-center align-items-center h-100">
               <div className="text-white">
-                <h1 className="mb-3">Hackflix</h1>
+                {/* <h1 className="mb-3">Hackflix</h1> */}
 
-                <a
+                <h1
                   className="btn btn-outline-light btn-lg"
                   href="#!"
                   role="button"
                 >
-                  Call to action
-                </a>
+                  Hackflix
+                </h1>
               </div>
             </div>
           </div>
