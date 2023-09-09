@@ -6,7 +6,7 @@ const Header = function () {
       <nav class="navbar navbar-expand-lg navbar-light bg-danger d-flex flex-row">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            Hackflix
+            flix
           </a>
         </div>
       </nav>
