@@ -39,7 +39,7 @@ const Movies = function () {
     setMovies([...movies, ...response.data.results]); // guarda ...movies y ..response en nuevo array
   }; //  trae las 20 siguientes movies
   return (
-    <div className="container ms-5">
+    <div className="container">
       <div className="d-flex justify-content-center">
         <div className="mt-2">
           <p>Filtrar por rating:</p>
@@ -67,7 +67,7 @@ const Movies = function () {
           {movies
             // .filter((movie) => movie.vote_average >= rating * 2 - 2)
             .map((film) => (
-              <div key={film.id} className="col-3">
+              <div key={film.id} className="col-lg-3 col-md-6 col-12">
                 <MovieComponent film={film} />
               </div>
             ))}
